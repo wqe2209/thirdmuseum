@@ -6,14 +6,14 @@ function Main() {
     <div className="Main">
       <section className="App-Main">
       <section class="main">
-          <div class="img1"></div>
-          <div class="img2"></div>
+          {/* <div class="img1"></div>
+          <div class="img2"></div> */}
         <div class="container">
           <p class="mainText1">“I Think of Olimpia Zagnoli as Keith Haring’s<br/>
             radiant boby  come to life” - by Tamara Shopsin</p>
             <div class="mainText2">Color</div>
             <div class="mainText3">is life</div>
-            <button class="mainBtn"><a class="mainTextBtn" href='#'>전시보러가기</a></button>
+            <button class="mainBtn"><a class="mainTextBtn" href='/now'>전시보러가기</a></button>
         </div>
       </section>
       <section class="content">
