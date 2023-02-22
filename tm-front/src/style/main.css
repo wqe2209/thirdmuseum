@@ -11,21 +11,24 @@ body{
 }
 
 .main{
+z-index: -1;
 height: 864px;
 position: relative;
-background-image:url(../resource/main/Main2.png), url(../resource/main/Main1.png); background-size:483px 373px, 513px 375px; background-position:446px 0px, 0 233px; background-repeat:no-repeat;
+background-image:url(../resource/main/Main2.png), url(../resource/main/Main1.png); background-size:483px 373px, 513px 375px; background-position:490px 0px, 0 233px; background-repeat:no-repeat;
 }
 .mainText1{
   font-size: 16px;
   margin-top: 38px; 
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  margin-left: 30px;
   font-family: 'NotoSansKR';
   line-height: 21px;
 }
 
 .mainText2{
   font-size: 215px;
-  margin-left: 98px;
+  /* margin-left: 98px; */
+  margin-left: 65px;
   line-height: 175px;
   font-family: 'Playfair Display';
   font-weight: bold;
@@ -33,8 +36,8 @@ background-image:url(../resource/main/Main2.png), url(../resource/main/Main1.png
 
 .mainText3{
   font-size: 215px;
-  margin-left: 368px;
-  margin-left: 350px;
+  /* margin-left: 350px; */
+  margin-left: 166px;
   line-height: 175px;
   font-family: 'Playfair Display';
   font-weight: bold;
@@ -52,24 +55,6 @@ background-image:url(../resource/main/Main2.png), url(../resource/main/Main1.png
   color: #fff !important;
   font-size: 26px;
   font-family: 'NotoSansKR';
-}
-.img1{
-  width: 483px;
-  height: 373px;
-  background-color: aqua;
-  position: absolute;
-  margin-left: 446px;
-  background-position: center;
-  background-image: url(../resource/main/Main2.png);
-}
-.img2{
-  width: 513px;
-  height: 375px;
-  background-color: aqua;
-  position: absolute;
-  margin-top: 233px;
-  background-position: center;
-  background-image: url(../resource/main/Main1.png);
 }
 .content{
  height: 5826px;
@@ -195,22 +180,7 @@ background-image:url(../resource/main/Main2.png), url(../resource/main/Main1.png
   font-size: 38px;
   font-family: 'NotoSansKR';
 }
-.img1{
-  width: 690px;
-  height: 533px;
-  background-color: aqua;
-  position: absolute;
-  margin-left: 1212px;
-  background-image: url(../resource/main/Main2.png);
-}
-.img2{
-  width: 733px;
-  height: 536px;
-  background-color: aqua;
-  position: absolute;
-  margin-top: 334px;
-  background-image: url(../resource/main/Main1.png);
-}
+
 
 .h2{
   font-family: 'Playfair Display';

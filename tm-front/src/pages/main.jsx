@@ -6,8 +6,6 @@ function Main() {
     <div className="Main">
       <section className="App-Main">
       <section class="main">
-          {/* <div class="img1"></div>
-          <div class="img2"></div> */}
         <div class="container">
           <p class="mainText1">“I Think of Olimpia Zagnoli as Keith Haring’s<br/>
             radiant boby  come to life” - by Tamara Shopsin</p>
