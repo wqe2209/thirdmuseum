@@ -28,7 +28,7 @@ background-image:url(../resource/main/Main2.png), url(../resource/main/Main1.png
 .mainText2{
   font-size: 215px;
   /* margin-left: 98px; */
-  margin-left: 65px;
+  margin-left: 60px;
   line-height: 175px;
   font-family: 'Playfair Display';
   font-weight: bold;
@@ -37,7 +37,7 @@ background-image:url(../resource/main/Main2.png), url(../resource/main/Main1.png
 .mainText3{
   font-size: 215px;
   /* margin-left: 350px; */
-  margin-left: 166px;
+  margin-left: 160px;
   line-height: 175px;
   font-family: 'Playfair Display';
   font-weight: bold;
@@ -48,7 +48,8 @@ background-image:url(../resource/main/Main2.png), url(../resource/main/Main1.png
   text-align: center;
   background-color: #000;
   margin-top: 80px;
-  margin-left: 519px;
+  /* margin-left: 519px; */
+  margin-left: 340px;
 }
 .mainTextBtn{
   text-decoration: none !important;
@@ -160,7 +161,6 @@ background-image:url(../resource/main/Main2.png), url(../resource/main/Main1.png
 
 .mainText3{
   font-size: 308px;
-  margin-left: 526px;
   margin-left: 526px;
   line-height: 250px;
   font-family: 'Playfair Display';
