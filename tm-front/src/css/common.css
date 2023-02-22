@@ -1,0 +1,43 @@
+
+@font-face {
+  font-family: "PlayfairDisplay", "NotoSansKR";
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+}
+.navbar{
+  height: 104px;
+}
+.nav-item{
+  list-style:none;
+}
+.nav-link{
+  font-size: 20px !important;
+  font-family: 'NotoSansKR';
+  color: #000 !important;
+  margin-left: 30px;
+
+}
+.navbar-brand{
+  font-size: 20px !important;
+  font-family: 'NotoSansKR';
+  font-weight: bold;
+}
+.container{
+  width: 1440px;
+}
+
+
+footer{
+  clear: both;
+  height: 218px;
+  margin-top: 100px;
+}
+.FtextBox{
+  padding-top: 72px;
+}
+.Ftext{
+  float: left;
+  margin-right: 45px;
+}
+.FSubtext {
+  clear: both;
+}
