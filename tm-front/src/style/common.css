@@ -5,6 +5,11 @@
 *{
   font-family: 'PlayfairDisplay', 'NotoSansKR';
 }
+.container{
+  width: 1440px;
+ 
+}
+/* header */
 .navbar{
   height: 104px;
 }
@@ -35,12 +40,8 @@
 }
 
 
-.container{
-  width: 1440px;
- 
-}
 
-
+/* footer */
 footer{
   clear: both;
   height: 218px;
