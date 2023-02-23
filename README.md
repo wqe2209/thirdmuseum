@@ -1,5 +1,7 @@
 # thirdmuseum
 
+- 리액트 설정
+
 npm install 하는 방법 - by 김은주, 2023-02-23
 
 저장소 복제 후 vscode 터미널 - git bash에서 다음 명령어를 실행합니다.
@@ -28,3 +30,5 @@ npm install
 - axios 설치
 
   npm install axios@1.3.3
+
+-스프링부트 설정
