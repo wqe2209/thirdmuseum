@@ -1,0 +1,14 @@
+#myMap{
+    width: 100%;
+    height: 800px;
+}
+
+h1{
+    text-align: center;
+}
+.location_info2{
+    display: table-cell;
+}
+.location_info3{
+    display: table-cell;
+}
