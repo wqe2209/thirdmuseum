@@ -10,10 +10,12 @@ import past from './pages/past';
 import programe from './pages/programe';
 import reserve from './pages/reserve';
 import attention from './pages/attention';
-import notice from './pages/notice';
+import NoticeList from './pages/notice/list';
+import NoticeCreate from './pages/notice/create';
+import NoticeRead from './pages/notice/read';
 import login from './pages/login';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -29,7 +31,10 @@ function App() {
         <Route exact path="/programe" component={programe} />
         <Route exact path="/reserve" component={reserve} />
         <Route exact path="/attention" component={attention} />
-        <Route exact path="/notice" component={notice} />
+        {/* 공지사항 게시판 추가 */}
+        <Route exact path="/notice" component={NoticeList} />
+        <Route path = "/create-board/:ntcNo" component = {NoticeCreate} />
+        <Route path = "/read-board/:ntcNo" component = {NoticeRead} />
         <Route exact path="/login" component={login} />
       </Switch>
     <Footer/>
