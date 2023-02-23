@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import BoardService from './service';
+import NoticeVisual from './noticevisual';
 
 class NoticeList extends Component {
     constructor(props) {
@@ -34,7 +35,9 @@ class NoticeList extends Component {
 
     render() {
         return (
-            <div>
+            <>
+            <NoticeVisual />
+            <div className='contianer-xxl'>
                 <div className ="row">
                     <table className="table table-striped table-bordered">
                         <thead>
@@ -60,6 +63,7 @@ class NoticeList extends Component {
                     <button className="btn btn-primary" onClick={this.createBoard}>새 글 쓰기</button>
                 </div>
             </div>
+            </>
         );
     }
 }
