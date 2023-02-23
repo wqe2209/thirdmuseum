@@ -1,9 +1,11 @@
 // import './App.css';
-import '../style/common.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import { Navbar, NavDropdown, Nav, Container } from 'react-bootstrap';
+import '../style/common.css';
 
 function Footer() {
   return (
+    <Container fluid="md">
     <div className="Footer">
       <footer className="App-Footer">
       <footer>
@@ -18,6 +20,7 @@ function Footer() {
     </footer>
     </footer>
     </div>
+    </Container>
   );
 }
 
