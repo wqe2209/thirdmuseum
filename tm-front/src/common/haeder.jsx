@@ -9,8 +9,8 @@ import '../style/common.css';
 
 function Header() {
   return (
-    <Navbar bg="white" expand="lg" className='container'>
-      <Container className='navbar '>
+    <Navbar bg="white" expand="lg" className='container-xxl'>
+      <Container className='navbar'>
       <Navbar.Brand href="/main">세번째미술관</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

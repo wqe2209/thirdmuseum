@@ -7,7 +7,7 @@ function Main() {
     <div className="Main">
       <section className="App-Main">
         <section className="main">
-          <div className="container">
+          <div className="container-xxl">
             <p className="mainText1">“I Think of Olimpia Zagnoli as Keith Haring’s<br/>
               radiant boby  come to life” - by Tamara Shopsin</p>
               <div className="mainText2">Color</div>
@@ -16,8 +16,8 @@ function Main() {
           </div>
         </section>
         <section className="content">
-            <div className="container">
-              <div className='wrap'>
+            <div className="container-xxl">
+              <div className='container-lg'>
                 <h2 className="h2">Preview</h2>
                   <div className="Pimg1"></div>
                   <div className="Pimg2"></div>
