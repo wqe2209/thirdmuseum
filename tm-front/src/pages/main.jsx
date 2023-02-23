@@ -1,4 +1,5 @@
 // import './App.css';
+import { Navbar, NavDropdown, Nav, Container } from 'react-bootstrap';
 import '../style/main.css';
 
 function Main() {
@@ -16,6 +17,7 @@ function Main() {
       </section>
       <section className="content">
           <div className="container">
+            <div className='wrap'>
             <h2 className="h2">Preview</h2>
             <div className="Pimg1"></div>
             <div className="Pimg2"></div>
@@ -26,6 +28,7 @@ function Main() {
             <div className="Pimg7"></div>
             <div className="Pimg8"></div>
             <div className="Pimg9"></div>
+            </div>
           </div>
       </section>
     </section>

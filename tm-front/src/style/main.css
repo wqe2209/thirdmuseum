@@ -6,14 +6,13 @@ body{
   font-family: 'NotoSansKR', 'PlayfairDisplay', serif, sans-serif;
 }
 
-.mainTex.container{
+.container{
   width: 1440px;
 }
 
 .main{
 z-index: -1;
 height: 864px;
-position: relative;
 background-image:url(../resource/main/Main2.png), url(../resource/main/Main1.png); background-size:483px 373px, 513px 375px; background-position:490px 0px, 0 233px; background-repeat:no-repeat;
 }
 .mainText1{
@@ -188,14 +187,18 @@ background-image:url(../resource/main/Main2.png), url(../resource/main/Main1.png
   padding-bottom: 51px;
   font-size: 80px !important;
 }
+.wrap {width: 1192px;}
   .content{height: 3048px;}
   .Pimg1{float: left;}
-  .Pimg2{ margin-left: 46px; float: right;}
-  .Pimg3{margin-left: 46px; float: right;}
+  .Pimg2{ margin-left: 30px; float: right;}
+  .Pimg3{margin-left: 30px; float: right;}
   .Pimg4{ float: left;}
-  .Pimg5{ margin-left: 46px; float: right; }
+  .Pimg5{ margin-left: 30px; float: right; }
   .Pimg6{float: left;}
-  .Pimg7{margin-left: 46px; float: right;}
+  .Pimg7{margin-left: 30px; float: right;}
   .Pimg8{float: left;}
-  .Pimg9{margin-left: 46px; float: right;}
+  .Pimg9{margin-left: 30px; float: right;}
+}
+@media (min-width: 390px) {
+
 }
