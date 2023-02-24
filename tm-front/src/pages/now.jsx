@@ -1,3 +1,6 @@
+import container from 'react-bootstrap/Container';
+import row from 'react-bootstrap/Row';
+import col from 'react-bootstrap/Col';
 import '../style/now.css'
 import Now1 from '../resource/display/now1.jpg';
 import Now2 from '../resource/display/now2.png';
@@ -13,7 +16,7 @@ function now(){
                 <img src={Now1} class="NowImg1" alt='이미지1'></img>
             </div>
             <div className="now_wrap">
-                    <div className="container">
+                    <div className="contianer-xl">
                         <div className="row">
                             <div className="col-4">
                                 <p class="NowText_Left">Color is life</p>
@@ -37,14 +40,18 @@ function now(){
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-8">
+                            <div className="col-7">
                                 <img src={Now3}class="NowImg3" alt='이미지3'></img>
                             </div>
-                            <div className="col-4">
+                            <div className="col-1"></div>
+                            <div className="col-2">
                                 <p class="NowImg3_Title">뉴욕에서 가장 사랑받는<br/>
                                                         일러스트레이터</p>
                                 <p class="NowImg3_Text">뉴요커 잡지의 상징적인 커버와<br/>
                                         뉴욕타임스의 대표적인 이미지 디자인</p>
+                            </div>
+                            <div className="col-">
+
                             </div>
                         </div>
                         <div className="row">
@@ -59,7 +66,9 @@ function now(){
                         </div>
                     </div>
             </div>
+            
         </section>
+        
     )
 }
 export default now;
